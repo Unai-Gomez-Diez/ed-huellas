@@ -1,6 +1,8 @@
-package com.iesam.huellas.domain;
+package com.iesam.huellas.domain.models;
 
-public class Cat extends Animales{
+import com.iesam.huellas.domain.models.Animales;
+
+public class Cat extends Animales {
     private boolean hasVirus;
 
     public boolean isHasVirus() {

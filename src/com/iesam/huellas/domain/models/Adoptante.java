@@ -1,6 +1,6 @@
-package com.iesam.huellas.domain;
+package com.iesam.huellas.domain.models;
 
-public class Adoptante extends Persona{
+public class Adoptante extends Persona {
 
     private String fechaNacimiento;
     private String direccion;
