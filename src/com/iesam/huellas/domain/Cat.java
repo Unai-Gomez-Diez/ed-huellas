@@ -1,14 +1,13 @@
 package com.iesam.huellas.domain;
 
-public class Cat {
-    private Integer id;
+public class Cat extends Animales{
+    private boolean hasVirus;
 
-
-    public Integer getId() {
-        return id;
+    public boolean isHasVirus() {
+        return hasVirus;
     }
 
-    public void setId(Integer id) {
-        this.id = id;
+    public void setHasVirus(boolean hasVirus) {
+        this.hasVirus = hasVirus;
     }
 }
