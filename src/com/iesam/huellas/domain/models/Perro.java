@@ -1,6 +1,8 @@
-package com.iesam.huellas.domain;
+package com.iesam.huellas.domain.models;
 
-public class Perro extends Animales{
+import com.iesam.huellas.domain.models.Animales;
+
+public class Perro extends Animales {
     private String raza;
     private boolean amigable;
 

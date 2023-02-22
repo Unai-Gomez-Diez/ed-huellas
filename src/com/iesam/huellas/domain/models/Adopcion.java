@@ -1,4 +1,4 @@
-package com.iesam.huellas.domain;
+package com.iesam.huellas.domain.models;
 
 public class Adopcion {
     private String id;

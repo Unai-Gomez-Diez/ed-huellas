@@ -1,6 +1,8 @@
-package com.iesam.huellas.domain;
+package com.iesam.huellas.domain.models;
 
-public class Socio extends Persona{
+import com.iesam.huellas.domain.models.Persona;
+
+public class Socio extends Persona {
     private String cuentaBancaria;
 
     public String getCuentaBancaria() {
