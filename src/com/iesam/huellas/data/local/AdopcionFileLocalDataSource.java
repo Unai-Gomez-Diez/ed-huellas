@@ -62,16 +62,7 @@ public class AdopcionFileLocalDataSource implements AdopcionLocalDataSource{
         }
     }
 
-    @Override
-    public Adopcion findById(String adopcionId) {
-        List<Adopcion> adopcions = findAll();
-        for (Adopcion adopcion : adopcions) {
-            if (Objects.equals(adopcion.getId(), adopcionId)) {
-                return adopcion;
-            }
-        }
-        return null;
-    }
+
 
     public List<Adopcion> findAll() {
         try {
