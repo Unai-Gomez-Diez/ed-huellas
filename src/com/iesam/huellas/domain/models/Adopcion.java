@@ -22,11 +22,11 @@ public class Adopcion {
         this.fechaAdopcion = fechaAdopcion;
     }
 
-    public Animales getAnimales() {
+    public Animales getAnimales(Cat gato1) {
         return animales;
     }
 
-    public Adoptante getAdoptante() {
+    public Adoptante getAdoptante(Adoptante adoptante1) {
         return adoptante;
     }
 }

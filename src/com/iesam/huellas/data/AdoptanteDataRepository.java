@@ -18,5 +18,10 @@ public class AdoptanteDataRepository implements AdoptanteRepository {
     localDataSource.save(adoptante);
     }
 
+    @Override
+    public List<Adoptante> getAll() {
+        return localDataSource.findAll();
+    }
+
 
 }

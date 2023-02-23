@@ -62,15 +62,7 @@ public class CatFileLocalDataSource implements CatLocalDataSource{
     }
 
 
-    public Cat findById(Integer catId) {
-        List<Cat> cats = findAll();
-        for (Cat cat : cats) {
-            if (Objects.equals(cat.getId(), catId)) {
-                return cat;
-            }
-        }
-        return null;
-    }
+
 
     public List<Cat> findAll() {
         try {
